@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Blog Platform - Modern Content & Community Hub",
+        "description": "A modern blogging platform designed for seamless content creation and community engagement. It features a rich text editor, user authentication, blog management, social interactions, advanced search, analytics, and a powerful admin panel — delivering a complete end-to-end solution for writers, readers, and admins.",
+        "stack": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "image": "https://ik.imagekit.io/9kvz9l4o8/project/blog-app.png",
+        "link": "https://blog-website-orcin-three-25.vercel.app/login",
+        "github": "https://github.com/NILESH211807/blog-website"
+    },
+    {
+        "id": 2,
+        "name": "TalkNet - Real-time Chat Application",
+        "description": "A real-time chat application that enables users to connect, communicate, and share ideas. It features user authentication, real-time messaging, group chat, file sharing, notifications, and a user-friendly interface.",
+        "stack": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "image": "https://ik.imagekit.io/9kvz9l4o8/project/chat-app.png",
+        "link": "https://talknet-chat-app.vercel.app",
+        "github": "https://github.com/NILESH211807/talknet-chat-app"
+    },
+    {
+        "id": 3,
+        "name": "Quiz Game - Test Your Knowledge",
+        "description": "Quiz Master is a modern, interactive quiz web application built with React and Vite. It allows users to test their knowledge with personalized quizzes, timed challenges, and instant feedback. The app features smooth animations, responsive design, and a user-friendly interface.",
+        "stack": [
+            "React.js",
+            "Tailwind CSS",
+            "Vite",
+            "react-router-dom",
+            "Context API"
+        ],
+        "image": "https://ik.imagekit.io/9kvz9l4o8/project/quiz-app.png",
+        "link": "https://quiz-game-kappa-henna.vercel.app",
+        "github": "https://github.com/NILESH211807/quiz-game"
+    },
+    {
+        "id": 4,
+        "name": "Image Enhancer - Enhance Your Photos",
+        "description": "A powerful web application that combines AI-powered image enhancement and background removal capabilities. Built with Next.js, TypeScript, and Tailwind CSS, this tool offers a seamless user experience for improving image quality and removing backgrounds with just a few clicks.",
+        "stack": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "React Hooks",
+            "Cutout Pro API"
+        ],
+        "image": "https://ik.imagekit.io/9kvz9l4o8/project/image-enhancer.png",
+        "link": "https://image-enhance-one.vercel.app",
+        "github": "https://github.com/NILESH211807/image-enhance"
+    }
+]
