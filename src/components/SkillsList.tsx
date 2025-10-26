@@ -12,6 +12,10 @@ const techlist = [
         img: "https://ik.imagekit.io/9kvz9l4o8/icons/css3.svg",
     },
     {
+        name: "Javascript",
+        img: "https://ik.imagekit.io/9kvz9l4o8/icons/javascript.svg",
+    },
+    {
         name: "React",
         img: "https://ik.imagekit.io/9kvz9l4o8/icons/react.svg",
     },
@@ -23,14 +27,11 @@ const techlist = [
         name: "Tailwind",
         img: "https://ik.imagekit.io/9kvz9l4o8/icons/tailwindcss.svg",
     },
-    {
-        name: "Javascript",
-        img: "https://ik.imagekit.io/9kvz9l4o8/icons/javascript.svg",
-    },
-    {
-        name: "Typescript",
-        img: "https://ik.imagekit.io/9kvz9l4o8/icons/typescript.svg",
-    },
+
+    // {
+    //     name: "Typescript",
+    //     img: "https://ik.imagekit.io/9kvz9l4o8/icons/typescript.svg",
+    // },
     {
         name: "Node.js",
         img: "https://ik.imagekit.io/9kvz9l4o8/icons/node.svg",
@@ -39,8 +40,6 @@ const techlist = [
         name: "MongoDB",
         img: "https://ik.imagekit.io/9kvz9l4o8/icons/mongodb.svg",
     },
-
-
     {
         name: "Github",
         img: "https://ik.imagekit.io/9kvz9l4o8/icons/github.svg",
@@ -61,10 +60,10 @@ const techlist = [
         "name": "Postman",
         "img": "https://ik.imagekit.io/9kvz9l4o8/icons/postman.svg",
     },
-    {
-        "name": "seo",
-        "img": "https://ik.imagekit.io/9kvz9l4o8/icons/seo3.svg",
-    },
+    // {
+    //     "name": "seo",
+    //     "img": "https://ik.imagekit.io/9kvz9l4o8/icons/seo3.svg",
+    // },
     {
         "name": "VSCode",
         "img": "https://ik.imagekit.io/9kvz9l4o8/icons/vscode.svg",

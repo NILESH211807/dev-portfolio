@@ -14,11 +14,10 @@ export default function HeroPage() {
                 }}
             />
 
-            {/* absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] */}
-            <div className="w-full  px-10 max-sm:px-3">
+            <div className="w-full  px-10 max-sm:px-3 relative">
                 <div className="w-full flex items-center flex-col justify-center  pt-40">
                     <BlurFade delay={0.25} inView >
-                        <h1 className="text-7xl dark:text-white from-[#7a4ad9] to-[#3d1b81] bg-clip-text text-transparent bg-gradient-to-br font-extrabold font2 uppercase max-md:text-6xl max-md:text-center max-sm:text-6xl max-[520px]:!text-[40px]">
+                        <h1 className="text-7xl dark:bg-gradient-to-tl dark:from-slate-700  dark:to-zinc-400 from-[#7a4ad9] to-[#3d1b81] bg-clip-text text-transparent bg-gradient-to-br font-extrabold font2 uppercase max-md:text-6xl max-md:text-center max-sm:text-6xl max-[520px]:!text-[40px]">
                             Nilesh Paswan
                         </h1>
                     </BlurFade>
@@ -45,7 +44,7 @@ export default function HeroPage() {
             {/* absolute -bottom-16  */}
             <BlurFade delay={0.85} inView className="w-full flex items-center justify-center max-sm:mt-10">
                 <ScrollVelocityContainer className="text-[15vw] font1 uppercase font-bold text-[#e2e2e25b] dark:text-[#3e394d23] max-sm:text-8xl">
-                    <ScrollVelocityRow baseVelocity={10} direction={-1}>
+                    <ScrollVelocityRow baseVelocity={10} direction={1}>
                         <Image src="https://ik.imagekit.io/9kvz9l4o8/project/icon.png" alt="logo"
                             className="w-[15vw] h-[15vw] max-sm:w-[96px] max-sm:h-[96px] animate-spin [animation-duration:10s] opacity-20"
                             width={100} height={100} />

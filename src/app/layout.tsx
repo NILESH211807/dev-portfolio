@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Bricolage_Grotesque, DM_Sans, Montserrat, Oswald, } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
     variable: "--font-montserrat",
@@ -45,6 +46,12 @@ export default function RootLayout({
             >
                 <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
                     {children}
+                    <Toaster
+                        position="top-right"
+                        toastOptions={{
+                            className: "toast-message"
+                        }}
+                    />
                 </ThemeProvider>
             </body>
         </html>

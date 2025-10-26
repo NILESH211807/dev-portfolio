@@ -224,3 +224,29 @@ body {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
+
+
+
+
+/* autofill background color remove input */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px var(--background) inset !important;
+    box-shadow: inset 0px 20px 207px 10px rgba(165, 39, 255, 0.48);
+    -webkit-text-fill-color: var(--foreground) !important;
+}
+
+.toast-message {
+    background: var(--card) !important;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--foreground) !important;
+    border: 1px solid var(--border) !important;
+}

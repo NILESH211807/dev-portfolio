@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Projects from "@/components/Projects";
 import HeroPage from "@/pages/HeroPage";
+import Contact from '@/pages/Contact';
 
 export default function Home() {
 
@@ -36,6 +37,7 @@ export default function Home() {
             {/* <Hero /> */}
             <Skills />
             <Projects />
+            <Contact />
             <Footer />
         </div>
     );

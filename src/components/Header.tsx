@@ -3,7 +3,6 @@ import Link from "next/link";
 import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { BlurFade } from "./ui/blur-fade";
 
 export default function Header() {
 
@@ -13,10 +12,11 @@ export default function Header() {
         { name: 'Home', href: '#' },
         { name: 'Skills', href: '/#skills' },
         { name: 'Projects', href: '/#projects' },
+        { name: 'Contact', href: '/#contact' },
     ]
 
     return (
-        <header className="w-full h-[70px] border-b fixed top-0 left-0 z-50 backdrop-blur-xl">
+        <header className="w-full h-[70px] border-b fixed top-0 left-0 z-[500] backdrop-blur-xl">
             <div className="w-full max-w-[1400px] my-0 mx-auto h-full flex items-center justify-between px-10 max-sm:px-3 relative">
                 <h1 className="text-2xl font-bold">Nilesh Paswan</h1>
                 <nav className={`min-lg:absolute min-lg:top-1/2 min-lg:left-1/2 min-lg:-translate-x-1/2 min-lg:-translate-y-1/2 max-lg:fixed max-lg:w-full max-lg:h-screen max-lg:bg-background max-lg:top-0 max-lg:right-0 max-lg:transition-transform duration-300 ease-in-out ${isNavOpen ? 'max-lg:translate-x-0' : 'max-lg:translate-x-full'}`}>
