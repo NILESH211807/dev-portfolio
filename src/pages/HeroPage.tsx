@@ -32,7 +32,7 @@ export default function HeroPage() {
                     </BlurFade>
                     <div className="flex mt-5 gap-10 max-sm:flex-col max-sm:w-full max-sm:gap-6 max-sm:mt-8">
                         <BlurFade delay={0.65} inView className="max-sm:w-full flex items-center justify-center">
-                            <Link href="/#projects" className="text-md px-10 py-3 font-bold uppercase tracking-wider cursor-pointer rounded border-2 transition-all ease-in-out active:scale-95 max-sm:w-[90%] bg-background">View My Works</Link>
+                            <Link href="/#projects" className="text-md text-center px-10 py-3 font-bold uppercase tracking-wider cursor-pointer rounded border-2 transition-all ease-in-out active:scale-95 max-sm:w-[90%] bg-background">View My Works</Link>
                         </BlurFade>
                         <BlurFade delay={0.75} inView className="max-sm:w-full flex items-center justify-center">
                             <Link href="/resume.pdf" target="_blank" className="text-white text-md px-10 py-3 font-bold uppercase tracking-wide cursor-pointer rounded inline-flex items-center border-2 border-transparent bg-primary shine-button transition-all ease-in-out  active:scale-95 max-sm:w-[90%] max-sm:justify-center">Download CV
