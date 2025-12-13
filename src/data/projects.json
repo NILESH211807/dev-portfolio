@@ -30,6 +30,36 @@
         "github": "https://github.com/NILESH211807/talknet-chat-app"
     },
     {
+        "id": 5,
+        "name": "Job Scheduler - Streamline Your Workflows",
+        "description": "A modern, full-stack job management and automation platform built with Next.js and Express.js. Create, manage, monitor, and execute background jobs through a beautiful, responsive dashboard with real-time statistics and advanced filtering.",
+        "stack": [
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "image": "https://ik.imagekit.io/9kvz9l4o8/project/Job-Scheduler-Automation-System.png",
+        "link": "https://job-scheduler-theta.vercel.app",
+        "github": "https://github.com/NILESH211807/JobScheduler"
+    },
+    {
+        "id": 6,
+        "name": "Code Compiler - Online Code Execution Platform",
+        "description": "A full-stack web application that allows users to write, run, and share code snippets in multiple programming languages. The platform features a modern UI with Monaco Editor, Docker-based code execution, and shareable code snippets.",
+        "stack": [
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Docker",
+            "Tailwind CSS"
+        ],
+        "image": "https://ik.imagekit.io/9kvz9l4o8/project/compiler-image",
+        "link": "https://compiler-two-red.vercel.app",
+        "github": "https://github.com/NILESH211807/compiler"
+    },
+    {
         "id": 3,
         "name": "Quiz Game - Test Your Knowledge",
         "description": "Quiz Master is a modern, interactive quiz web application built with React and Vite. It allows users to test their knowledge with personalized quizzes, timed challenges, and instant feedback. The app features smooth animations, responsive design, and a user-friendly interface.",

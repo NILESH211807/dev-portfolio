@@ -94,6 +94,7 @@ export default function Projects() {
                                             alt={project.name}
                                             width={480}
                                             height={320}
+                                            unoptimized={true}
                                             className="w-full h-80 object-cover rounded-md max-md:h-60" />
                                         <h1 className="mt-4 text-2xl font-medium max-sm:text-xl max-sm:font-bold">{project.name}</h1>
                                         <p className="text-[15px] font-light my-3 opacity-80 max-sm:text-[16px] max-sm:font-semibold max-sm:text-sm">{project?.description?.slice(0, 200) + "..."}</p>
